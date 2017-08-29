@@ -1,0 +1,36 @@
+Generelt:
+	Komplekst tall1: a+bi; //a er reele delen, b er kompleks del
+	Komplekst tall2: c+di; // c er reele delen, d er kompleks del
+	
+1) 	Lag en klasse som representerer komplekse tall.
+
+2) 	Skriv nyttige konstruktører
+
+3) 	Lag en medlemsfunksjon som returerer lengden på det komplekse tallet (absoluttverdien).
+		abs(tall1) = sqrt(a²+b²)
+		
+4) 	Overlagre en operator for å legge sammen to komplekse tall
+		tall1+tall2 = (a+c) + (b+d)i 
+
+5) 	Overlagre << operatoren for komplekse tall
+
+6) 	Overlagre en operator for å gange sammen to komplekse tall
+		tall1*tall2 = (a*c - b*d) + (b*c + a*d)i
+		
+7) 	Overlagre operatoren * for å gange sammen et komplekst tall og en double
+		10*tall1 = tall1*10 = (10*a) + (10*b)i
+		
+8) 	Overlagre en operator for å kunne sjekke om to komplekse tall er like
+
+9)	Overlagre - (unær minus) for komplekse tall
+	-tall1 = (-a) + (-b)i
+	
+10)	Bruk en operator for å finne den komplekskonjugerte til et komplekst tall
+	komplekskonjugert (tall1) = (a) + (-b)i
+
+11)	Definer [] operatoren for klassen slik at a[0] returnerer den reele delen og a[1] den imaginære
+	Gjør dette både for begge bruksområdene av []:
+		double t=a[0];
+		a[0]=5;			
+
+
